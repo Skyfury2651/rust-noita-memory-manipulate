@@ -1,0 +1,8 @@
+[package]
+name = "noita-seed"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.33.0"
+winapi = { version = "0.3", features = ["memoryapi", "processthreadsapi"] }
